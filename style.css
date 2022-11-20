@@ -1,0 +1,48 @@
+.container {
+    margin: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.points {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 90%;
+    position: absolute;
+}
+
+.axis-map {
+    width: 500px;
+    height: 500px;
+    outline: 1px solid gray;
+    position: relative;
+}
+
+.th-class {
+    font-weight: normal;
+    color: #039;
+    padding: 10px 15px;
+  }
+.td-class {
+    color: #669;
+    border-top: 1px solid #e8edff;
+    padding: 10px 15px;
+  }
+tr:hover .td-class {
+    background: #e8edff;
+  }
+
+.delete {
+    background-color: lightcoral;
+    color: #fff;
+    border-color: #fff;
+}
